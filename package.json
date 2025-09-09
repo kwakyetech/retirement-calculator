@@ -1,0 +1,61 @@
+{
+  "name": "retirement-income-calculator",
+  "version": "1.0.0",
+  "description": "A comprehensive web-based retirement planning tool that helps users calculate their projected retirement income",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve . -p 8000",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "echo 'No build step required - static files ready for deployment'",
+    "test": "echo 'No tests specified yet'",
+    "deploy:netlify": "npx netlify-cli deploy --prod --dir=.",
+    "deploy:vercel": "npx vercel --prod",
+    "deploy:surge": "npx surge . --domain retirement-calculator.surge.sh",
+    "validate": "npx html-validate index.html",
+    "lint:css": "npx stylelint style.css",
+    "lint:js": "npx eslint app.js",
+    "optimize": "npx terser app.js -o app.min.js -c -m && echo 'JavaScript minified to app.min.js'",
+    "preview": "echo 'Starting local server...' && npm run serve"
+  },
+  "keywords": [
+    "retirement",
+    "calculator",
+    "finance",
+    "planning",
+    "investment",
+    "savings",
+    "web-app",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/retirement-income-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/retirement-income-calculator/issues"
+  },
+  "homepage": "https://github.com/yourusername/retirement-income-calculator#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "files": [
+    "index.html",
+    "app.js",
+    "style.css",
+    "README.md",
+    "DEPLOYMENT.md"
+  ]
+}
