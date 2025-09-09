@@ -20,9 +20,11 @@ retirement-calculator/
 ├── index.html          # Main HTML file with the calculator interface
 ├── app.js             # JavaScript logic for calculations and interactions
 ├── style.css          # CSS styles and responsive design
-├── .vscode/           # VS Code settings (optional)
-│   └── settings.json
-└── README.md          # This documentation file
+├── package.json       # NPM configuration with deployment scripts
+├── README.md          # Project documentation and setup guide
+├── DEPLOYMENT.md      # Comprehensive deployment instructions
+├── LICENSE            # MIT License for the project
+└── .gitignore         # Git ignore rules for clean repository
 ```
 
 ## Quick Start
