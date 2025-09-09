@@ -1,6 +1,8 @@
 # Deployment Guide
 
-This guide provides detailed instructions for deploying the Retirement Income Calculator to various hosting platforms.
+🌐 **Live Example: [https://retirementscalc.netlify.app/](https://retirementscalc.netlify.app/)**
+
+This guide provides comprehensive instructions for deploying the Retirement Income Calculator to various hosting platforms.
 
 ## Prerequisites
 

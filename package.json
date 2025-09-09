@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/yourusername/retirement-income-calculator/issues"
   },
-  "homepage": "https://github.com/yourusername/retirement-income-calculator#readme",
+  "homepage": "https://retirementscalc.netlify.app/",
   "engines": {
     "node": ">=14.0.0"
   },
